@@ -112,15 +112,15 @@ Precision adalah salah satu metrik evaluasi yang sering digunakan untuk menilai 
 
 Precision = (Jumlah rekomendasi buku yang relevan) / (Jumlah item yang direkomendasikan)
 
-![image](https://github.com/user-attachments/assets/7b01e14d-5892-419a-95e3-0fa9a6f52f0e)
+![image](https://github.com/user-attachments/assets/f6c09a38-aa49-4c49-a305-c0174725dd41)
 
 Berdasarkan hasil rekomendasi, semua dari 10 buku yang ditampilkan relevan dengan kategori yang sesuai, sehingga nilai precision mencapai 1.0 atau 100%
     
 ### Colaborative Filtering
 Root Mean Square Error (RMSE) digunakan untuk mengukur seberapa dekat prediksi sistem rekomendasi dengan rating sebenarnya yang diberikan oleh pengguna. RMSE menghitung rata-rata kuadrat dari selisih antara rating yang diprediksi dan rating aktual, lalu diakarkan.
 
-![image](https://github.com/user-attachments/assets/aa058b02-cabf-410d-bc2b-82f20720d0fb)
+![image](https://github.com/user-attachments/assets/c8bec516-b958-440b-af75-caea70b6f391)
 
 
 
-Model telah dilatih selama 50 epoch dengan penurunan nilai loss yang konsisten. Nilai validation root mean squared error (val_RMSE) menunjukkan perbaikan performa, dari 0.3052 pada epoch pertama menjadi 0.2276 pada epoch ke-50, yang mencerminkan peningkatan kemampuan generalisasi model terhadap data validasi
+Model telah dilatih selama 50 epoch dengan penurunan nilai loss dan root mean squared error (RMSE) yang konsisten pada data pelatihan maupun validasi. Pada awal pelatihan (epoch 1), nilai val_root_mean_squared_error berada di angka 0.3063, dan secara bertahap mengalami perbaikan hingga mencapai 0.2280 pada epoch ke-35 serta terus menurun hingga 0.2276 pada epoch ke-50. Tren penurunan ini menunjukkan bahwa model mampu meningkatkan kemampuan generalisasi terhadap data validasi seiring berjalannya pelatihan.
