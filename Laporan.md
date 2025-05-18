@@ -119,7 +119,8 @@ Berdasarkan hasil rekomendasi, semua dari 10 buku yang ditampilkan relevan denga
 ### Colaborative Filtering
 Root Mean Square Error (RMSE) digunakan untuk mengukur seberapa dekat prediksi sistem rekomendasi dengan rating sebenarnya yang diberikan oleh pengguna. RMSE menghitung rata-rata kuadrat dari selisih antara rating yang diprediksi dan rating aktual, lalu diakarkan.
 
-![image](https://github.com/user-attachments/assets/e482b28b-78ae-4379-b5db-1e94cd7103ce)
+![image](https://github.com/user-attachments/assets/aa058b02-cabf-410d-bc2b-82f20720d0fb)
 
 
-Model dilatih selama 50 epoch dengan hasil penurunan loss yang konsisten. Nilai validation root mean squared error (val_RMSE) membaik dari 0.3052 pada epoch pertama menjadi 0.2276 pada epoch ke-50, menunjukkan peningkatan performa dan generalisasi model terhadap data validasi    
+
+Model telah dilatih selama 50 epoch dengan penurunan nilai loss yang konsisten. Nilai validation root mean squared error (val_RMSE) menunjukkan perbaikan performa, dari 0.3052 pada epoch pertama menjadi 0.2276 pada epoch ke-50, yang mencerminkan peningkatan kemampuan generalisasi model terhadap data validasi
