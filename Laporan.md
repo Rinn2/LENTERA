@@ -112,7 +112,7 @@ Precision adalah salah satu metrik evaluasi yang sering digunakan untuk menilai 
 
 Precision = (Jumlah rekomendasi buku yang relevan) / (Jumlah item yang direkomendasikan)
 
-![image](https://github.com/user-attachments/assets/f97b34b8-8c95-4e22-b64f-8a28671576bc)
+![image](https://github.com/user-attachments/assets/7b01e14d-5892-419a-95e3-0fa9a6f52f0e)
 
 Berdasarkan hasil rekomendasi, semua dari 10 buku yang ditampilkan relevan dengan kategori yang sesuai, sehingga nilai precision mencapai 1.0 atau 100%
     
