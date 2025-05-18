@@ -119,7 +119,7 @@ Berdasarkan hasil rekomendasi, semua dari 10 buku yang ditampilkan relevan denga
 ### Colaborative Filtering
 Root Mean Square Error (RMSE) digunakan untuk mengukur seberapa dekat prediksi sistem rekomendasi dengan rating sebenarnya yang diberikan oleh pengguna. RMSE menghitung rata-rata kuadrat dari selisih antara rating yang diprediksi dan rating aktual, lalu diakarkan.
 
-![image](https://github.com/user-attachments/assets/c8bec516-b958-440b-af75-caea70b6f391)
+![image](https://github.com/user-attachments/assets/03b8541f-eab8-4660-a45d-a91cc537cc48)
 
 
 
