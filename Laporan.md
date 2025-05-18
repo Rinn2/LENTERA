@@ -5,7 +5,6 @@ Sistem rekomendasi buku bertujuan untuk membantu pengguna menemukan buku yang re
 - Content-Based Filtering untuk merekomendasikan buku dengan karakteristik serupa dengan yang disukai pengguna.
 - Collaborative Filtering untuk menyarankan buku berdasarkan perilaku pengguna lain yang mirip.
 
-Pada bagian ini, Kamu perlu menuliskan latar belakang yang relevan dengan proyek yang diangkat.
 
 
 ## Business Understanding
